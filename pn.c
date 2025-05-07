@@ -6,7 +6,7 @@ int main() {
     if (num <= 1) {
         isPrime = 0;
     } else {
-        for (i = 2; i <= num / 2; ++i) {
+        for (i = 2; i <= sqrt(num); ++i) {
             if (num % i == 0) {
                 isPrime = 0;
                 break;
